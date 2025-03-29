@@ -7,20 +7,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import NavBar from "./components/NavBar";
-import Upload from "./pages/Upload";
-import Candidates from "./pages/Candidates";
-import Settings from "./pages/Settings";
+import Projects from "./pages/Projects";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 
 const queryClient = new QueryClient();
-
-const AppLayout = ({ children }: { children: React.ReactNode }) => (
-  <div className="min-h-screen flex flex-col bg-ats-background">
-    <NavBar />
-    <main className="flex-1">
-      {children}
-    </main>
-  </div>
-);
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
@@ -30,21 +21,9 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/upload" element={
-            <AppLayout>
-              <Upload />
-            </AppLayout>
-          } />
-          <Route path="/candidates" element={
-            <AppLayout>
-              <Candidates />
-            </AppLayout>
-          } />
-          <Route path="/settings" element={
-            <AppLayout>
-              <Settings />
-            </AppLayout>
-          } />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
