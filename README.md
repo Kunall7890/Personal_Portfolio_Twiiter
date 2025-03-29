@@ -1,69 +1,68 @@
-# Welcome to your Lovable project
+🐦 Personal Portfolio – Twitter Style
+🚀 Project Overview
+This is a personal portfolio designed in a sleek, Twitter-style format. It presents your skills, experiences, and projects in a familiar, social-media-inspired interface, making it interactive and engaging for visitors.
 
-## Project info
+🔗 Project URL: Portfolio Project
 
-**URL**: https://lovable.dev/projects/dc34ee56-303c-43ed-8c1f-7dcd82584dbe
+🛠️ Tech Stack:
 
-## How can I edit this code?
+Vite – Fast and optimized build tool
 
-There are several ways of editing your application.
+TypeScript – Ensures type safety and clean code
 
-**Use Lovable**
+React – Component-based UI library
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/dc34ee56-303c-43ed-8c1f-7dcd82584dbe) and start prompting.
+Shadcn-UI – Elegant and customizable UI components
 
-Changes made via Lovable will be committed automatically to this repo.
+Tailwind CSS – Utility-first CSS framework for styling
 
-**Use your preferred IDE**
+📚 Features
+✅ Twitter-like layout – Your portfolio resembles a feed with cards, posts, and interactive sections.
+✅ Dynamic interactions – Hover effects, tweet-style cards, and smooth transitions.
+✅ Projects showcase – Highlight your top projects in tweet-like posts.
+✅ Skills & experiences – Display your tech stack and career milestones in Twitter-style profile and tweet sections.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+⚙️ Getting Started
+1️⃣ Clone the Repository
+sh
+Copy
+Edit
 git clone <YOUR_GIT_URL>
+cd twitter-style-portfolio
+2️⃣ Install Dependencies
+Ensure Node.js and npm are installed, then run:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+sh
+Copy
+Edit
+npm install
+3️⃣ Run the Development Server
+Start the local development environment:
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+sh
+Copy
+Edit
 npm run dev
-```
+Open http://localhost:5173 in your browser.
 
-**Edit a file directly in GitHub**
+🛠️ How to Edit the Code
+Option 1: Using a Local IDE
+Open the project in your preferred IDE (VS Code, WebStorm, etc.).
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Modify the code and save changes.
 
-**Use GitHub Codespaces**
+Push updates using:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+sh
+Copy
+Edit
+git add .
+git commit -m "Your message"
+git push origin main
+Option 2: GitHub Codespaces
+Click the "Code" button on GitHub.
 
-## What technologies are used for this project?
+Select "Codespaces" and create a new instance.
 
-This project is built with .
+Edit files in the cloud and push changes.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/dc34ee56-303c-43ed-8c1f-7dcd82584dbe) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
